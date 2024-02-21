@@ -4,8 +4,29 @@ body {
     background-color: #64ADD7;
 }
 
-/*NAVIGATION*/
+/*DIV NAVIGATION*/
+/*BASE*/
 #navigation {
     background-color: white;
+}
+
+.positionNavigation {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/*ICON HOME*/
+#IconHome {
+    width: 5rem;
+    height: 5rem;
+}
+
+.positionMenu{
+    display: flex;
+    align-items: center;
+}
+.titleMenu {
     color: black;
 }
