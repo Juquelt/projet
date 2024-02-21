@@ -1,0 +1,42 @@
+<?php
+ $dbh = new PDO('mysql:host=localhost;dbname=myhot', 'root', '');
+/*try {
+ $dbh = new PDO('mysql:host=localhost;dbname=myhot', 'root', '');
+ foreach($dbh->query('SELECT temp_ext FROM donne') as $row) {
+ 	print_r($row);
+ }
+ $dbh = null;
+} //catch (PDOException $e) {
+ //print "Erreur !: " . $e->getMessage() . "<br/>";
+ //die();
+}*/
+?>
+
+<html>
+
+<head>
+	
+<TITLE>MAISON</TITLE>
+<link rel="style" type="text/css" href="style.css">
+<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1 align=center><font size="20" face="Arial" color = #F17C34> 	Mon bâtiment </font> </h1>
+
+<table border="1" width="75%"  align="center">
+	<tr> 
+		<td style="text-align: center" height="50px" width="50%"> <a href="Piece1.php"style="color: #000000"><span style="font-size: 20px;"> PIECE1 </a> </td>
+		<td style="text-align: center" height="50px" ><a href=""style="color: #000000"> <span style="font-size: 20px;">Pièce supplémentaire </a> </td>
+	</tr>
+</table>
+<p> <br> </p>
+<table border="1" width="25%"  style="position: absolute; bottom: 20; left: 10; text-align: left;padding-l: 20px;">
+	<tr> 
+		<td style="text-align: center" height="50px"> <a href="infoSupport.php" style="color: #000000"><span style="font-size: 20px;">Information et support </a> </td>
+		
+	</tr>
+</table>
+
+<p style="position: absolute; bottom: 0; right: 0; text-align: left;padding-right: 20px;"><font size="2" face="Arial" color = #000000><B>Projet de 5A - Bauchet - Voisin </B></font> </p>
+</body>
+</html>
