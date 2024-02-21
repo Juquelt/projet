@@ -63,14 +63,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /*DIV CELSIUS*/
 #Celsius {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#Celsius > title {
-    padding-left: 100rem;
-    z-index: 1;
+#Celsius > h1 {
+    font-size: x-large;
+}
+#Celsius > h2 {
+    font-size: large;
+}
+
+#House {
+    display: flex;
+    align-items: center;
+}
+
+#House > h2 {
+    font-size: large;
 }
