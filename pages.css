@@ -1,7 +1,7 @@
 /*MAISON.HTML*/
 /*FOND*/
 body {
-    background-color: #64ADD7;
+    background-color: #6CA6E8;
 }
 
 /*DIV NAVIGATION*/
@@ -17,7 +17,6 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    overflow-y: auto;
 }
 
 #ColumnNavigation {
@@ -43,6 +42,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
 }
 .titleMenu {
     color: black;
@@ -56,4 +56,21 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+/*DIV CONTENT*/
+#Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*DIV CELSIUS*/
+#Celsius {
+
+}
+
+#Celsius > title {
+    padding-left: 100rem;
+    z-index: 1;
 }
