@@ -8,6 +8,22 @@ body {
 /*BASE*/
 #navigation {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 13%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+#ColumnNavigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .positionNavigation {
@@ -19,14 +35,25 @@ body {
 
 /*ICON HOME*/
 #IconHome {
-    width: 5rem;
-    height: 5rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
-.positionMenu{
+.positionMenu {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .titleMenu {
     color: black;
+}
+
+#IconPlus {
+    width: 50px;
+    height: 50px;
+}
+.positionNew {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
